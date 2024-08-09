@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" href="CALC.CSS">
+</head>
+<script src="CALC.JS"></script>
+<body>
+
+  <div id="loancal">
+    <h1>Loan Calculator</h1>
+    <div class="input">
+      <p>Loan Amount: $</p>
+       <input id="amount" type="number" min="1" max="5000000" onchange="computeLoan()" placeholder="loan amount">
+      <p>Interest Rate: %</p>
+       <input id="interest_rate" onchange="computeLoan()" placeholder="interest_rate">
+      <p>Months to Pay: </p>
+       <input id="months" type="number" onchange="computeLoan()" placeholder="enter months">
+       <h2 id="payment"></h2>
+     </div>
+</div>
+</body>
+</html>

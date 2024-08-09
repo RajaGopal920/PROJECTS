@@ -1,0 +1,43 @@
+body{
+  background-size: cover;
+  background-image: url(images/bg\ pic.jpg);
+    font-family: sans-serif;
+  }
+  #loancal {
+    width: 360px;
+    height: 440px;
+    background-image: url("https://img.freepik.com/free-vector/rupee-symbol-digital-technology-background_1017-36810.jpg?size=626&ext=jpg&ga=GA1.1.867694130.1686677428&semt=ais");
+    /*background-color:rgb(204, 133, 205);*/
+    color: #fff;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 7%;
+  }
+  h1 {
+    font-size:30px;
+    text-align: center;
+    color: rgb(213, 232, 8);
+    margin-bottom: 35px;
+  }
+  .input{
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+  p{
+  color: rgb(248, 244, 247);
+  font-size: 17px;
+  }
+  input{
+    width: 100%;
+    height: 33px;
+ 
+
+  }
+  h2{
+    text-align: center;
+    color: rgb(241, 238, 241);
+    margin-top: 35px;
+    margin-left: 0%;
+  }
+  
